@@ -1,0 +1,3 @@
+include ':app', ':lib-zxing'
+rootProject.name='Weather'
+project(':lib-zxing').projectDir = new File('android-zxingLibrary-master/lib-zxing')

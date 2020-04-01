@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/His_city"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:textColor="#98F5FF"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:scaleType="center"
+            android:src="@drawable/hz" />
+        <ListView
+            android:id="@+id/HistoryList1"
+            android:divider="#ffffff"
+            android:dividerHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+        <ListView
+            android:id="@+id/HistoryList2"
+            android:divider="#ffffff"
+            android:dividerHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+        <ListView
+            android:id="@+id/HistoryList3"
+            android:divider="#ffffff"
+            android:dividerHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+
+</FrameLayout>
